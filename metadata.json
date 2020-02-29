@@ -1,0 +1,10 @@
+{
+  "name": "Mounter",
+  "description": "Mount and umonut fstab entires with 'noauto,user' options.)",
+  "settings-schema": "org.gnome.shell.extensions.mounter",
+  "uuid": "mounter@heartmire",
+  "version": 1,
+  "shell-version": [
+    "3.34"
+  ]
+}

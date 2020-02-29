@@ -1,0 +1,18 @@
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema id="org.gnome.shell.extensions.mounter" path="/org/gnome/shell/extensions/mounter/">
+    <key name="mounter-enable-keybinding" type="b">
+      <default>true</default>
+        <summary>Enable the keyboard shortcuts</summary>
+        <description>
+            If true, enable keyboard shortcuts
+        </description>
+    </key>
+    <key name="mounter-toggle-menu" type="as">
+      <default><![CDATA[['<Ctrl><Alt>m']]]></default>
+      <summary>Toggle the menu</summary>
+      <description>
+        Key to toggle the mounter menu
+      </description>
+    </key>
+  </schema>
+</schemalist>
