@@ -1,5 +1,5 @@
 # Mounter
-Mount and umount fstab entires with 'noauto,user' options.
+Mount and umount fstab entries with 'noauto,user' options.
 
 /etc/fstab example that will be picked up and listed by the extension:
 

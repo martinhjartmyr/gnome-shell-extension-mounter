@@ -1,6 +1,6 @@
 {
   "name": "Mounter",
-  "description": "Mount and umonut fstab entires with 'noauto,user' options.)",
+  "description": "Mount and umount fstab entries with 'noauto,user' options.\n\n/etc/fstab example that will be picked up and listed by the extension:\n192.168.1.1:/mnt/data/users/martin  /mnt/server-martin  nfs  noauto,user,noatime,rw  0  0\n\nToggle the menu with the shortcut: CTRL + ALT + m",
   "settings-schema": "org.gnome.shell.extensions.mounter",
   "uuid": "mounter@heartmire",
   "url": "https://gitlab.com/martinhjartmyr/gnome-shell-extension-mounter",
