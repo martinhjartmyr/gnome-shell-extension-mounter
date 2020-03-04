@@ -10,7 +10,7 @@ Mount and umount fstab entries with 'noauto,user' options.
 Toggle the menu with the shortcut: CTRL + ALT + m
 
 ## Installation
-Use the [GNOME Shell Extensions](https://extensions.gnome.org) website to
+Use the [GNOME Shell Extensions](https://extensions.gnome.org/extension/2666/mounter) website to
 install and enable the latest version.
 
 ## Screenshot

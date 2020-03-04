@@ -146,7 +146,6 @@ class Mounter {
 
     if (success) {
       const contentLines = imports.byteArray.toString(content);
-      GLib.free(content);
       contentLines.split("\n").forEach(line => {
         const data = line.match(/\S+/g) || [];
         if (data.length == 6 &&
@@ -169,7 +168,6 @@ class Mounter {
 
     if (success) {
       const contentLines = imports.byteArray.toString(content);
-      GLib.free(content);
       this.mountsAvail.forEach(mount => {
         mount.mounted = (contentLines.indexOf(mount.mountPoint) === -1) ? false : true;
       });
