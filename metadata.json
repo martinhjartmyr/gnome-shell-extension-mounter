@@ -4,9 +4,6 @@
   "settings-schema": "org.gnome.shell.extensions.mounter",
   "uuid": "mounter@heartmire",
   "url": "https://gitlab.com/martinhjartmyr/gnome-shell-extension-mounter",
-  "version": 2,
-  "shell-version": [
-    "3.34",
-    "3.35"
-  ]
+  "version": 3,
+  "shell-version": ["3.34", "3.35", "40"]
 }
